@@ -7,11 +7,9 @@ import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
 import javax.lang.model.element.TypeElement;
 
-import org.kohsuke.MetaInfServices;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@MetaInfServices
 // List the custom annotations that are supported.
 @SupportedAnnotationTypes({ "fun.n.learn.annotation.LogMeCustomAnnotation" })
 // Extend AbstractProcessor. This will let you process.
